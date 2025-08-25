@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation DSA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Formation DSA</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#programme">Programme</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Bienvenue</h2>
+    <p>Découvrez notre formation DSA pour développer vos compétences...</p>
+  </section>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Je suis [Ton Nom], passionné par [ton domaine] et j’accompagne les étudiants à réussir...</p>
+  </section>
+
+  <section id="programme">
+    <h2>Programme</h2>
+    <ul>
+      <li>Module 1 : Introduction</li>
+      <li>Module 2 : Concepts avancés</li>
+      <li>Module 3 : Études de cas</li>
+    </ul>
+  </section>
+
+  <section id="tarifs">
+    <h2>Tarifs</h2>
+    <p>La formation complète est disponible à partir de <strong>XXX €</strong>.</p>
+    <button>S'inscrire</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+</body>
+</html>
